@@ -1,15 +1,19 @@
 {
   "name": "nexus-terminal-server",
-  "version": "1.0.0",
-  "description": "WebSocket server for Nexus Terminal collaboration",
+  "version": "7.0.0",
+  "description": "WebSocket server for Nexus Terminal Pro with real-time rooms",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "ws": "^8.14.2"
   },
-  "engines": {
-    "node": "18.x"
-  }
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["terminal", "websocket", "collaboration"],
+  "author": "Marvic Studios UG",
+  "license": "MIT"
 }
